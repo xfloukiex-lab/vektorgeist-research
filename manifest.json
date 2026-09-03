@@ -152,9 +152,14 @@
     "url": "https://xfloukiex-lab.github.io/hodos-study/"
   },
 
-  "lanes_lede": "Work applying the same engine in a specific domain keeps **its own record, its own numbering and its own evidence ladder**. A result in one line is not a claim about another.",
+  "lanes_lede": "Work built on the same engine keeps **its own record, its own numbering and its own evidence ladder**. A result in one line is not a claim about another.",
 
   "lanes": [
+    {
+      "name": "Universe Clock — the main body of work behind Hodos Chronos",
+      "blurb": "A downloadable desktop clock built on the family and run over the Pantheon+/SH0ES catalogue — **1,701 type-Ia supernovae**, public data, carried inside the application. This is where the equations stop being a paper and become something a person can open: **12 parts, 66 relations, 85 dials, four depths**. Every clock is made of relations — a second is the Earth turning against the Sun — and what makes this one a *universe* clock is that **it does not choose**: nothing is left out.\n\nTwo results are worth stating plainly. **The whole's time is not the sum of its parts'** — roughly **74% of the accumulated duration lives in the relations BETWEEN the twelve parts**, which no part owns and no part's own clock can contain. Read in the other direction that share is 74.2% against 73.9%, so the total moves about 7% with direction while the shape does not. And **the instrument recovered known astrophysics it was never told about**: among the resolvable edges, host galaxy mass against brightness residual is the *mass step*, a documented effect in this very catalogue, found without being given it.\n\nThree of the four equations run here — Diastema supplies the distance and the warp, Symploke the surplus, Chronos the duration. Systasis is excluded by design, because it did not clear.",
+      "caveat": "**It does not read cosmic time, and nothing in it is a cosmological claim.** Three criteria fixed in advance fail: epoch ordering, rate agreement, and sampling invariance at 0.147 against a 0.05 bar — the same criterion the Chronos paper reports failing, reappearing here on a second and unrelated catalogue. The per-relation readings have not converged at 1,701 objects, so an edge reading zero is **under-resolved at this depth**, never 'unrelated'. The engine itself is never shipped; the application carries measured values only."
+    },
     {
       "name": "Cordthym — cardiac rhythm",
       "blurb": "A monitor that learns one patient by remembering them rather than by being trained on a population: it stores examples of that person's own rhythm and classifies new rhythm against those episodes. No training step, no model weights, no cloud, and every alert points back at the specific remembered episodes that produced it. It keeps its own clinical evidence ladder, distinct from the foundation record.",
