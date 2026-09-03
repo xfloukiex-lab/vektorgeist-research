@@ -2,9 +2,12 @@
 
 Research from **Vektorgeist** — sovereign, local, self-understanding AI.
 
-## → [vektorgeist.com/research](https://vektorgeist.com/research)
+## → [xfloukiex-lab.github.io/vektorgeist-research](https://xfloukiex-lab.github.io/vektorgeist-research/)
 
-That page is the index. It's kept current; this repo is not.
+**The index lives here for now.** `vektorgeist.com/research` is temporarily
+unavailable, so this page is the standing index of the programme until it is
+back: what the premise is, the four equations it generates and where each one
+stands, all ten papers in plain language, and what none of it claims.
 
 ---
 
@@ -33,8 +36,27 @@ resolves to the newest version, so none of these ever needs re-pointing:
 - **The Law of Two: Why a Relational Ontology Entails Exactly Two**
   [10.5281/zenodo.21879204](https://doi.org/10.5281/zenodo.21879204)
 
-The working record — every finding, including the negative and retracted ones:
+The working record — every finding, including the negative and corrected ones:
 [xfloukiex-lab.github.io/hodos-study](https://xfloukiex-lab.github.io/hodos-study/)
 
 None of this has been peer reviewed, and no result has been reproduced outside
 the project. Each paper says so.
+
+---
+
+## How this page is built
+
+`manifest.json` is the single source of truth; `build.py` renders it to
+`docs/index.html`, which is what GitHub Pages serves. Every count on the page is
+generated from the manifest, so the summary cannot drift out of date — the same
+rule the study records are built on.
+
+    python build.py     # manifest.json -> docs/index.html
+    python check.py     # ship gate: leak scrub, link allowlist, DOI match
+
+`check.py` must pass before publishing. It scrubs the built page (not the
+source) for developer paths, credential-shaped literals and personal addresses,
+asserts every outbound link is on an explicit allowlist so a dead link cannot
+ship, and checks the DOIs on the page against the manifest in both directions.
+It runs against a control string that must be present, so a broken scan cannot
+return a false all-clear.
