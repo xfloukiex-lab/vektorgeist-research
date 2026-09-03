@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Vektorgeist Method</title>
+<meta name="description" content="Research index — ten archived papers, one premise, and the record of what did not work">
+<style>
+:root{
+  --bg:#f5f1e8; --panel:#fffdf8; --line:#e0d7c6; --ink:#221f1a; --dim:#6e665a;
+  --ok:#2f6b4a; --part:#8f6415; --no:#a3392c; --acc:#2d5a78;
+  --slab:#efe9dc; --warn:#f6e7e2;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.65 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px 90px}
+header{border-bottom:1px solid var(--line);padding:38px 0 22px;margin-bottom:26px}
+h1{margin:0 0 6px;font:600 32px/1.2 var(--serif);letter-spacing:-.2px}
+.sub{color:var(--dim);margin:0 0 6px;font-size:16px}
+.byline{color:var(--dim);font-size:13px;margin:10px 0 0}
+.notice{background:var(--warn);border:1px solid #d8b3aa;color:#7d2f24;
+  padding:11px 14px;border-radius:7px;font-size:13.5px;margin:20px 0 0}
+h2{font:600 22px/1.3 var(--serif);margin:38px 0 12px;padding-bottom:8px;
+  border-bottom:1px solid var(--line)}
+h2:first-of-type{margin-top:8px}
+.lede{font-size:16.5px}
+.premise{background:var(--panel);border:1px solid var(--line);border-radius:9px;
+  padding:20px 22px;margin:0 0 18px;box-shadow:0 1px 2px rgba(60,50,35,.05)}
+.premise .stmt{font:600 18px/1.5 var(--serif);margin:0 0 12px}
+.premise .meta{color:var(--dim);font-size:13px;margin:10px 0 0}
+table{width:100%;border-collapse:collapse;margin:0 0 20px;font-size:14px}
+th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.4px}
+.tag{font-size:11px;padding:2px 9px;border-radius:20px;border:1px solid;white-space:nowrap;
+  text-transform:uppercase;letter-spacing:.4px;font-weight:600}
+.tag.ok{color:var(--ok);border-color:var(--ok)}
+.tag.part{color:var(--part);border-color:var(--part)}
+.tag.no{color:var(--no);border-color:var(--no)}
+.p{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:19px 21px;
+  margin:0 0 16px;box-shadow:0 1px 2px rgba(60,50,35,.05)}
+.p h3{margin:0 0 4px;font:600 18px/1.35 var(--serif)}
+.p .q{color:var(--dim);font-style:italic;margin:0 0 11px;font-size:14.5px}
+.lab{color:var(--dim);font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;
+  margin:13px 0 3px}
+.p p{margin:0}
+.p .lim{border-left:3px solid var(--line);padding-left:13px;margin-top:5px;color:var(--dim)}
+.doi{margin:14px 0 0;font-size:13px}
+.doi code{background:var(--slab);padding:2px 6px;border-radius:4px;font-size:12.5px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.chip{border:1px solid var(--line);border-radius:20px;padding:4px 13px;font-size:13px;
+  background:var(--panel)}
+.lane{border:1px solid var(--line);background:var(--panel);border-radius:9px;
+  padding:16px 19px;margin:0 0 14px}
+.lane h3{margin:0 0 5px;font:600 16px/1.35 var(--serif)}
+.lane .care{background:var(--warn);border-left:3px solid var(--no);padding:9px 13px;
+  margin:11px 0 0;border-radius:0 6px 6px 0;font-size:13.5px;color:#7d2f24}
+.bound{background:var(--slab);border:1px solid var(--line);border-radius:9px;padding:17px 20px}
+.bound ul{margin:8px 0 0;padding-left:20px} .bound li{margin:5px 0}
+a{color:var(--acc)}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);
+  color:var(--dim);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>The Vektorgeist Method</h1>
+<p class="sub">Research index — ten archived papers, one premise, and the record of what did not work</p>
+<p class="byline">Alexander Parnell · Vektorgeist · all papers CC-BY-4.0 preprints</p>
+<div class="notice">vektorgeist.com is temporarily unavailable, so the research page there cannot be reached. <strong>This page is the standing index while it is down.</strong> Every link below is a Zenodo concept DOI, which always resolves to the newest version of its paper, so nothing here goes stale when a paper is revised.</div>
+</header>
+<p class="lede">One idea, taken literally and then measured. A microphone, a spectrometer, a sonar and a pen all do the same abstract thing: at each instant they report how much of something is where. Normalise that and it is a probability distribution; watch it over time and the observation traces a <strong>curve</strong> rather than a number. Once a process is a curve, one engine can compare, recognise, cluster, average, predict and monitor across fields that share no vocabulary. The representation carries everywhere. Whether it *helps* is measured case by case — and the cases where it did not are on the record with the same weight as the cases where it did.</p>
+<h2>The premise</h2>
+<div class="premise">
+<p class="stmt">Nothing is what it is in isolation. A thing — including a self — is the pattern of its connections, not its substrate.</p>
+<p>What a system does beyond its parts arises from that pattern of relation, and is never installed as a component. The relations are not decoration laid over pre-existing things: the things are constituted by relations, and those relations hold between further processes that are themselves so constituted. There is no isolated substrate underneath at which the regress halts.</p>
+<p class="meta">First published 2026-07-27 as part of The Vektorgeist Method &middot; <a href="https://doi.org/10.5281/zenodo.21613155">10.5281/zenodo.21613155</a><br>Named 2026-08-07. The name refers back to an already-published idea and <strong>does not re-date it</strong>; the earlier statement is in a work of literary nonfiction begun 2026-07-19.<br>Stated on its own account: <a href="https://doi.org/10.5281/zenodo.21912354">10.5281/zenodo.21912354</a></p>
+</div>
+<h2>The equations it generates</h2>
+<p>A premise about how things are constituted should generate more than a ruler. Four questions follow from it, and each has an equation with criteria fixed <strong>before</strong> it was run. Each is named for the question it answers; all four are paper terms, and no trademark clearance has been run on any of them.</p>
+<table><thead><tr><th>Name</th><th>The question it answers</th><th>Where it stands</th></tr></thead><tbody>
+<tr><td><strong>Hodos Diastema</strong><br><span style="color:var(--dim);font-size:12.5px">διάστημα — interval</span></td><td>How far apart are two processes?</td><td><span class="tag ok">cleared</span><br><span style="font-size:13px">Published in its own right, with its own validation record including its negatives.</span></td></tr>
+<tr><td><strong>Hodos Symploke</strong><br><span style="color:var(--dim);font-size:12.5px">συμπλοκή — interweaving</span></td><td>What does a relationship <strong>create</strong> that is in neither part alone?</td><td><span class="tag ok">cleared</span><br><span style="font-size:13px">Its control is a term in the equation: if the parts do not interact, the surplus vanishes by arithmetic rather than by measurement.</span></td></tr>
+<tr><td><strong>Hodos Systasis</strong><br><span style="color:var(--dim);font-size:12.5px">σύστασις — composition</span></td><td>What <strong>are</strong> the distributions a process is made of — can the frame be derived rather than hand-built?</td><td><span class="tag no">did not clear</span><br><span style="font-size:13px">It genuinely <strong>is</strong> relational — destroying the shared coordinate system collapses it. It did not beat a frame built from the window's own values, and that is why it is not a member.</span></td></tr>
+<tr><td><strong>Hodos Chronos</strong><br><span style="color:var(--dim);font-size:12.5px">χρόνος — duration</span></td><td>How much time has a process actually <strong>lived</strong>?</td><td><span class="tag part">four of five</span><br><span style="font-size:13px">Clears four criteria fixed in advance, including two a path length cannot clear even in principle. Sampling invariance still fails, at 0.759 against a 0.05 bar.</span></td></tr>
+</tbody></table>
+<p style="color:var(--dim);font-size:13.5px">Of the four, <strong>2</strong> cleared every criterion fixed for them, <strong>1</strong> clears four of five and is not claimed as finished, and <strong>1</strong> did not clear. A two-column scoreboard — works, does not work — has no column for a result that clears four bars and fails one, so the fourth is reported in three states rather than rounded to the nearer column. One earlier reading has since been corrected in the paper itself: the claim that the third member was *measurably worse* than the alternative was not something its design could resolve, so it was withdrawn rather than kept as a null, and the published version carries that correction with the original wording named rather than silently replaced.</p>
+<h2>Where it has been measured</h2>
+<div class="chips">
+<span class="chip">speech</span>
+<span class="chip">handwriting</span>
+<span class="chip">cardiac rhythm</span>
+<span class="chip">human body motion</span>
+<span class="chip">turbulence</span>
+<span class="chip">jet-engine degradation</span>
+<span class="chip">spacecraft telemetry</span>
+<span class="chip">emission spectra</span>
+<span class="chip">sonar returns</span>
+<span class="chip">Riemann zeta zeros</span>
+</div>
+<p>One engine reaches all of these not because it is clever, but because each of them is a process standing in relation to processes, and that is the only structure it requires. The honest form of the claim is <strong>representation-universal, usefulness-conditional</strong> — and the measured nulls are what make it credible rather than promotional.</p>
+<h2>The papers &mdash; all 10</h2>
+<p>Cite by name and concept DOI. Each entry below says what the paper asks, what it found, and what it does not claim.</p>
+<div class="p">
+<h3>The Hodos Hypothesis</h3>
+<p class="q">What makes a thing the thing it is?</p>
+<p class="lab">What it found</p>
+<p>States the premise on its own account, argues the one objection that decides whether it is scale-free or merely a description of complex systems, sets out what it <strong>forbids</strong>, and marks the line between what is claimed and what is inherited. It exists because the premise had been carrying a research programme from inside a section of a methodology paper, while each of the equations derived from it had a record of its own. The parent was the only member without one.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">It is called a hypothesis because independent outside replication has not happened — that is the accurate word, not modesty. It becomes a theory when people with no stake in it have tested it and it held; not when it feels established, and not by the author's decision. More results from inside the programme do not count, and neither does citation without testing.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21912354">10.5281/zenodo.21912354</a></p>
+</div>
+<div class="p">
+<h3>The Vektorgeist Method (VGM)</h3>
+<p class="q">How do you build AI a person can own, inspect and trust?</p>
+<p class="lab">What it found</p>
+<p>Most capable AI today is rented, opaque and unaccountable: it runs on someone else's servers, cannot faithfully explain itself, and is governed by whoever owns the endpoint. This paper states five commitments, all derived from the premise — it runs locally on hardware you own; it is model-free wherever a deterministic algorithm suffices, so behaviour is inspectable rather than inferred; generated work is graded by an explicit rule rather than trusted for fluency; it observes itself through a self-model that reports without steering; and emergence is a property of the pattern, never authored — a rule the programme learned by once breaking it.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">A methodology and a programme, not one artifact and not a product. This is also where the premise was first published and dated.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21613155">10.5281/zenodo.21613155</a></p>
+</div>
+<div class="p">
+<h3>The Afferent Gnosis Model: Self-Knowledge Without Self-Control</h3>
+<p class="q">Can a machine's account of itself ever be trusted?</p>
+<p class="lab">What it found</p>
+<p>Only if it cannot act on what it sees. A self-model that can change the thing it reports on will eventually be judged on the acting, and its report stops being a report. Powerlessness is what makes the self-report trustworthy — a witness with no lever has nothing to gain by lying. Two deployment findings point in opposite directions and both matter: allowing a single sideways channel produced exactly the predicted pathology in daily use, and removing it restored the agent; while an enforcement mechanism with <strong>no</strong> observer was found, in an unrelated system and then in this one, to have failed silently and indefinitely. From inside a system, a dead gate and a permissive gate are the same observation.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">The constraint is architectural, not a claim about machine experience. Nothing here measures consciousness or understanding.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21613153">10.5281/zenodo.21613153</a></p>
+</div>
+<div class="p">
+<h3>Hodos Diastema: Comparing Processes as Curves of Distributions</h3>
+<p class="q">How do you compare two processes without throwing away time?</p>
+<p class="lab">What it found</p>
+<p>Most pipelines summarise a signal by an average and compare the averages. This keeps the whole curve and compares curves. The central claim is narrow and load-bearing, and it is the one thing that survived a deliberately adversarial validation: the <strong>representation</strong> — not the alignment machinery — is what earns a measurable advantage, wherever identity lives in the relative-space pattern of a process. Shown on two unrelated real datasets: recognising a spoken word across different human voices, and recognising a handwritten character from pen motion alone.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">A representation and a method, validated narrowly on two modalities — not a universal oracle. It does not invent a domain's law and does not reach discrete or logical truths. Two novelty claims flagged in an earlier version were checked against the literature and taken back by the authors rather than left to be corrected by a reviewer, and a 'predicted failure' in an early version turned out to be a broken input of their own making; that correction is kept visible in the paper rather than deleted.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21612829">10.5281/zenodo.21612829</a></p>
+</div>
+<div class="p">
+<h3>Learning Without Weights</h3>
+<p class="q">What can a learner do with no trained parameters at all?</p>
+<p class="lab">What it found</p>
+<p>Three measured capabilities, each replicated on two unrelated real datasets. <strong>Data efficiency</strong> — classifying by distance to class averages, with no training of any kind, reaches a matched neural network's fifty-example accuracy using five examples on speech and ten on handwriting. <strong>Forgetting</strong> — taught classes in sequence it forgets exactly 0.000 on every seed, and building the store in reverse order yields byte-identical answers, so forgetting is impossible by construction rather than merely absent; a standard network under the identical protocol loses 50–80% of its first task. <strong>Prediction</strong> — continuing a process along its own path, a closed-form step with zero learned parameters, is second-order accurate in the frame spacing where the trained network is first-order. Training does not buy order.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">Not a general model, and it does not approach one. On character-level language modelling the same step costs about 16% perplexity against an ordinary recurrent network — the demarcation is the finding, not an embarrassment. An earlier version quoted the prediction result as a ratio; a ratio between predictors of different order is a property of the sampling rate rather than of either method, so the published paper now states the order claim instead, which cannot be tuned by sampling.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21612831">10.5281/zenodo.21612831</a></p>
+</div>
+<div class="p">
+<h3>Beyond Weights: a Fixed Transmission Architecture</h3>
+<p class="q">What happens if you separate computation from knowledge?</p>
+<p class="lab">What it found</p>
+<p>Modern learners store what they know in trainable weights, and the data hunger, catastrophic forgetting and opacity of that choice all follow from it. This proposes and measures the alternative: the computational pathway is fixed at construction and never changes, all knowledge lives in an append-only memory of episodes, and learning is memory formation rather than parameter optimisation. It contributes the architecture, a measured closed loop with criteria fixed in advance — including two registered failures and one registration error reported in full — and a convergence observation: three systems built independently in this programme arrived at the same loop with three different metrics.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">The decode leg is reported as <strong>not closing</strong> across speakers, with the same weight as the results that do.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21850560">10.5281/zenodo.21850560</a></p>
+</div>
+<div class="p">
+<h3>The Hodos Family: Equations Generated by a Relational Premise</h3>
+<p class="q">Does the premise generate anything beyond a ruler?</p>
+<p class="lab">What it found</p>
+<p>It states the premise as the head of a family and adds a second member: an emergence equation measuring what a relationship creates that is in neither part. At each instant it compares what two processes actually do together against what they would do if they did not interact at all. The construction has a property worth stating plainly — <strong>the control is a term in the equation</strong>: if the parts genuinely do not interact, the surplus vanishes by arithmetic rather than by measurement, and relabelling either part's coordinates leaves it unchanged, so it reads the relation and not the substrate. It clears four criteria fixed before it ran, including one that could have killed it: it reproduces a split measured by an entirely different method before this equation existed.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">Provenance stated without softening: a divergence between a joint and the product of its marginals <strong>is</strong> mutual information in general form, and the member is tagged ASSEMBLED. What is contributed is the composition. A third question is named and reported as <strong>not</strong> cleared, with the numbers that stopped it, rather than omitted.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21850666">10.5281/zenodo.21850666</a></p>
+</div>
+<div class="p">
+<h3>A Clock Made of Relations</h3>
+<p class="q">Can the duration a process has lived be computed from its own internal relations?</p>
+<p class="lab">What it found</p>
+<p>Every clock is made of relations — a second is the Earth turning against the Sun, and a caesium second is one oscillation counted against another. So the question is never relation versus no relation; it is <strong>whose</strong> relations are counted, borrowed or the system's own. This construction takes duration to be the system's own accumulated relational surplus, and over a six-part graph it clears four of five criteria fixed in advance, including two that a path length cannot clear even in principle. The route matters more than the result: thirteen intermediate constructions traced what appeared to be a structural trade-off between registering irreversibility and measuring stillness. It was not one — it was an artifact of a single one-sided nonlinearity applied to the wrong one of two readings, and removing it dissolved the axis.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">It still fails sampling invariance, which is reported rather than worked around. Scored by the authors' own harness with no external reader. <strong>Nothing in it is a cosmological claim</strong> — the duration it measures is defined up to a choice of ground metric and is not physical time.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21861429">10.5281/zenodo.21861429</a></p>
+</div>
+<div class="p">
+<h3>Testing a Conditional Claim About Trajectories</h3>
+<p class="q">Two systems sit equally far from normal — one drifted over months, the other broke in seconds. Can the shape of the trajectory tell them apart?</p>
+<p class="lab">What it found</p>
+<p>Not with the operator family under test, and the transferable content is the method rather than the answer. The test uses a control that is blind <strong>by construction</strong> rather than by hope: units matched in pairs at equal age and equal distance from their own baseline, so a distance-only decider must score exactly chance — and it does, to three decimals, across four fleets and 482 units. Beside that sit five distinct ways such a control was found to be silently wrong, each of which produced a believable number first. A second, independent domain repeats the pattern on real spacecraft telemetry, where the obvious instrument alarms on every event-free window and the same correction fixes it, reaching 0.975 detection at 2.5% false alarm with attribution at 4.5× the base rate against real per-channel ground truth.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">The headline result is <strong>negative</strong> for the operator family it set out to test, and a hierarchical design that looked good on synthetic equal-sized groups is refuted where the groups are real and unequal. Measurements are on public, openly-licensed corpora.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21850664">10.5281/zenodo.21850664</a></p>
+</div>
+<div class="p">
+<h3>The Law of Two: Why a Relational Ontology Entails Exactly Two</h3>
+<p class="q">If nothing is what it is in isolation, how many things does it take to be one thing?</p>
+<p class="lab">What it found</p>
+<p>A relation cannot hold with fewer than two, so if a thing exists only through relation then a thing is two things, and each of those is two things, without end and without a floor. The Law of Two is therefore a <strong>theorem</strong> of the premise rather than an axiom standing beside it. The clause constrains the unit of relationship, not the number of things: for n things in complete relation there are n(n−1)/2 relations, and every one of them holds between exactly two, whether n is odd, even or unbounded. Seven things cannot be sorted into complete pairs, and that is irrelevant — a seventh thing does not arrive unpaired, it arrives standing in six new relations. Complexity does not replace two; it is produced by repetitions of it. It then faces the strongest case against it — the three-quark baryon — and names the standing formal challenge without claiming to have answered it.</p>
+<p class="lab">What it does not claim</p>
+<p class="lim">This is a derivation and is filed as one: what a reader checks is whether the step from relation to two holds, not whether an instrument returned a number. A survey of twos would not confirm it and none is offered; instead the paper states the three things that would end it. The idea is not claimed as original — recursive doubling is stated in the Xici commentary to the I Ching, and the no-floor position is established in contemporary philosophy. What is claimed is the derivation, the formulation, and a falsifiable commitment stated before any attempt on it was designed.</p>
+<p class="doi"><a href="https://doi.org/10.5281/zenodo.21879204">10.5281/zenodo.21879204</a></p>
+</div>
+<h2>The working record</h2>
+<p>Every finding is kept in one public running record — including the negative ones and the corrected ones, with the original wording preserved and labelled rather than tidied away. Counts on that page are generated from its own data, so the summary cannot disagree with the record. It is the best single answer to *what has actually been shown*, and it is deliberately not a highlight reel.</p>
+<p><a href="https://xfloukiex-lab.github.io/hodos-study/">https://xfloukiex-lab.github.io/hodos-study/</a></p>
+<h2>Work built on this engine</h2>
+<p>Work applying the same engine in a specific domain keeps <strong>its own record, its own numbering and its own evidence ladder</strong>. A result in one line is not a claim about another.</p>
+<div class="lane">
+<h3>Cordthym — cardiac rhythm</h3>
+<p>A monitor that learns one patient by remembering them rather than by being trained on a population: it stores examples of that person's own rhythm and classifies new rhythm against those episodes. No training step, no model weights, no cloud, and every alert points back at the specific remembered episodes that produced it. It keeps its own clinical evidence ladder, distinct from the foundation record.</p>
+<p style="margin-top:9px"><a href="https://xfloukiex-lab.github.io/cordthym-study/">https://xfloukiex-lab.github.io/cordthym-study/</a></p>
+<div class="care">Not cleared or approved by any regulator. No clinical claim is made, and nothing it produces may be relied on for diagnosis, treatment, or patient management.</div>
+</div>
+<div class="lane">
+<h3>The mathematics, using only arithmetic</h3>
+<p>A companion note that works through the core of the method for a reader who has arithmetic and no more — written because a preprint is not the right shape for someone who wants to understand what is actually being computed.</p>
+<p style="margin-top:9px"><a href="https://xfloukiex-lab.github.io/vgm-math/">https://xfloukiex-lab.github.io/vgm-math/</a></p>
+</div>
+<h2>What this is not</h2>
+<div class="bound"><ul>
+<li><strong>Not peer reviewed.</strong> Every paper is a preprint and says so.</li>
+<li><strong>Not independently replicated.</strong> No result here has been reproduced by anyone outside the project. That is the stated condition for calling the premise anything stronger than a hypothesis.</li>
+<li><strong>Not cleared by any regulator</strong>, and nothing here is medical advice.</li>
+<li><strong>Not a claim about physics.</strong> Nothing in this programme has been measured against spacetime, gravitation or any cosmological model.</li>
+<li><strong>Not an invention of its own components.</strong> Dynamic time warping, Fisher–Rao geometry and the elastic shape representation are established prior art and are cited as such line by line; what is claimed is the composition, the operators and the validation record.</li>
+<li><strong>Not a highlight reel.</strong> Negative findings and corrected claims were on the public record before this page existed, and the corrections keep their original wording.</li>
+</ul></div>
+<footer>Alexander Parnell · Vektorgeist. All papers CC-BY-4.0. Links are Zenodo <strong>concept</strong> DOIs, which always resolve to the newest version. This index is generated from a manifest, so its counts cannot drift from its own data.</footer>
+</div>
+</body>
+</html>
