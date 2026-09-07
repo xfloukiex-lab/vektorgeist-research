@@ -41,7 +41,9 @@ BANNED = [
     ("aws key", re.compile(r"\bAKIA[0-9A-Z]{16}\b")),
     ("private key header", re.compile(r"BEGIN [A-Z ]*PRIVATE KEY")),
     ("bearer literal", re.compile(r"Bearer\s+[A-Za-z0-9._-]{20,}")),
-    ("personal address", re.compile(r"[redacted-handle]@", re.I)),
+    # Matched by CLASS (a personal mailbox), never by naming the address: a check that spells out
+    # the thing it bans publishes it.
+    ("personal address", re.compile(r"[\w.+-]+@(?:gmail|outlook|yahoo|hotmail|proton|icloud)\.(?:com|me)", re.I)),
     ("localhost", re.compile(r"127\.0\.0\.1|localhost:\d+")),
     ("raw ip", re.compile(r"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b")),
     # Persona / private-conversation class. A published page carries the work,
